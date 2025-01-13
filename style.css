@@ -1,0 +1,79 @@
+.navbar {
+    font-family: "Albert Sans VF", "Albert Sans", "Basier Square", sans-serif;
+    height: 70px;
+    position: relative;
+    z-index: 100;
+  }
+  
+  .bg-body-tertiary {
+    background-color: black !important;
+  }
+  
+  .nav-link {
+    color: white;
+  }
+  
+  .nav-link:hover {
+    color: gray;
+  }
+  
+  .container-fluid {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .btn-outline-success {
+    color: white;
+    border-color: white;
+  }
+  
+  .btn-outline-success:hover {
+    color: gray;
+    border-color: gray;
+    background-color: transparent;
+  }
+  
+  footer {
+    background: black;
+    font-size: 14px;
+  }
+  
+  .first-line {
+    color: white;
+    border-bottom: 1px solid black;
+  }
+  
+  .second-line a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .flag {
+    color: white;
+  }
+  
+  @media screen and (max-width: 48rem) {
+    .second-line {
+      padding: 0 2rem;
+    }
+  
+    .flag {
+      display: none;
+    }
+  
+    .first-line {
+      text-align: center;
+    }
+  
+    .mobile-footer {
+      display: block;
+    }
+  }
+  
+  .col {
+    padding-bottom: 1rem;
+  }
+  
+  .flag-img {
+    margin: 0 0.5rem;
+  }
